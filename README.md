@@ -119,13 +119,13 @@ This folder provides cumulative return comparison tables between the Taiwan Weig
 
 ---
 
-
-
-
 ## 📌 引用方式 | Citation
 
 若您引用或參考本補充資料，請標註以下網址：  
+https://github.com/ChinHuiCheng/thesis-supplementary-materials
+
 If you reference or use this repository, please cite the following link:
+https://github.com/ChinHuiCheng/thesis-supplementary-materials
 
 
 

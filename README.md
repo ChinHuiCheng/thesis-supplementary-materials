@@ -1,4 +1,4 @@
-# 論文補充資料：從股市泡沫到個股韌性：指標分析之實證研究 
+# 論文補充資料: 從股市泡沫到個股韌性：指標分析之實證研究
 # From Stock Market Bubbles to Individual Stock Resilience: An Empirical Study Based on Indicator Identification
 
 本儲存庫收錄論文《從股市泡沫到個股韌性：指標分析之實證研究 》之線上補充資料，包含圖表、表格與原始分析結果，依內容分為四大類資料夾，說明如下：
@@ -26,7 +26,7 @@ The visualization treatment of indicators:
 - 結果以陰影標示區間，輔助觀察指標與股價間的關聯  
  Shaded areas represent periods where indicator equals 1
 
-📂 資料夾名稱 | Folder: `個股韌性圖表 / individual_resilience_charts`
+📂 資料夾名稱 | Folder: `個股韌性圖表（Individual Resilience Charts）`
 
 ---
 
@@ -41,7 +41,7 @@ This folder contains bubble status (0/1) across four detection methods:
 3. **本益比法**        Price-to-Earnings ratio exceeding historical mean + 2 std dev  
 4. **實際事件法**       Manually defined based on historical financial crises
 
-📂 資料夾名稱 | Folder: `附錄一_泡沫狀態資料表 / bubble_detection_tables`
+📂 資料夾名稱 | Folder: `泡沫狀態資料表 (bubble_detection_tables)`
 
 ---
 
@@ -59,7 +59,7 @@ Comparison of two investment strategies:
 圖中標記泡沫期間轉換點與報酬路徑。  
 The figures display switching points and cumulative returns under both strategies.
 
-📂 資料夾名稱 | Folder: `動態投資與0050績效比較圖 / dynamic_vs_0050_performance_charts`
+📂 資料夾名稱 | Folder: `動態投資與0050績效比較圖 (Dynamic_vs_0050_performance_charts)`
 
 
 ---
@@ -96,12 +96,12 @@ Comparison of two investment strategies:
 圖中標記泡沫期間轉換點與報酬路徑。  
 The figures display switching points and cumulative returns under both strategies.
 
-📂 資料夾名稱 | Folder: `動態投資與加權指數績效比較圖 / dynamic_vs_twii_performance_charts`
+📂 資料夾名稱 | Folder: `動態投資與加權指數績效比較圖 (Dynamic_vs_twii_performance_charts)`
 
 
 ---
 
-## 📁 動態投資與加權指數累積報酬比較表  (Performance Tables: TWII vs. Dynamic Strategys)
+## 📁 動態投資與加權指數累積報酬比較表  (Performance Tables: TWII vs. Dynamic Strategies)
 
 本資料夾收錄以「加權指數（TWII）」為基準，與各種泡沫辨識法與韌性指標所構成之「動態策略」間的累積報酬比較資料。每份 Excel 表格皆呈現：
 
@@ -115,7 +115,7 @@ This folder provides cumulative return comparison tables between the Taiwan Weig
 - Four resilience indicators (DUVOL, NCSKEW, Resilience, Vulnerability)
 - Each Excel file shows cumulative performance comparison between the TWII and the dynamic strategy.
 
-📂 資料夾名稱 | Folder: `動態投資與加權指數累積報酬比較表 /  dynamic_vs_twii_returns_tables`
+📂 資料夾名稱 | Folder: `動態投資與加權指數累積報酬比較表 (Dynamic_vs_twii_returns_tables)`
 
 ---
 

@@ -28,20 +28,23 @@ The visualization treatment of indicators:
 
 📂 資料夾名稱 | Folder: `個股韌性圖表（Individual Resilience Charts）`
 
+
 ---
+## 📁 動態投資與0050累積報酬比較表( Performance Tables: 0050 vs. Dynamic Strategy)
 
-## 📁 泡沫狀態資料表（Bubble Status Tables）
+本資料夾收錄以「元大臺灣50指數（0050）」為基準，與各種泡沫辨識法與韌性指標所構成之「動態策略」間的累積報酬比較資料。每份 Excel 表格皆呈現：
 
-本資料表整理四種泡沫辨識方法下的市場泡沫狀態（以 0/1 記錄）：
+- 不同泡沫檢定法（如本益比法、實際事件法）
+- 不同韌性指標（如 DUVOL、NCSKEW、Resilience、Vulnerability）
+- 動態策略 vs. 0050 的報酬路徑與差異
 
-This folder contains bubble status (0/1) across four detection methods:
+This folder contains cumulative return comparison tables between the 0050 ETF (Yuanta Taiwan Top 50) and dynamic investment strategies built on:
 
-1. **GSADF（95% 臨界值）** GSADF test using 95% Monte Carlo critical value  
-2. **GSADF（90% 臨界值）** GSADF test using 90% Monte Carlo critical value  
-3. **本益比法**        Price-to-Earnings ratio exceeding historical mean + 2 std dev  
-4. **實際事件法**       Manually defined based on historical financial crises
+- Various bubble detection methods (e.g., P/E ratio, real-world events)
+- Four resilience indicators (DUVOL, NCSKEW, Resilience, Vulnerability)
+- Each Excel file presents the cumulative performance differences between the 0050 ETF and the corresponding dynamic strategy.
 
-📂 資料夾名稱 | Folder: `泡沫狀態資料表 (bubble_detection_tables)`
+📂 資料夾名稱 | Folder: `動態投資與0050累積報酬比較表 / dynamic_vs_0050_returns_tables`
 
 ---
 
@@ -64,22 +67,21 @@ The figures display switching points and cumulative returns under both strategie
 
 ---
 
-## 📁 動態投資與0050累積報酬比較表( Performance Tables: 0050 vs. Dynamic Strategy)
+## 📁 動態投資與加權指數累積報酬比較表  (Performance Tables: TWII vs. Dynamic Strategies)
 
-本資料夾收錄以「元大臺灣50指數（0050）」為基準，與各種泡沫辨識法與韌性指標所構成之「動態策略」間的累積報酬比較資料。每份 Excel 表格皆呈現：
+本資料夾收錄以「加權指數（TWII）」為基準，與各種泡沫辨識法與韌性指標所構成之「動態策略」間的累積報酬比較資料。每份 Excel 表格皆呈現：
 
 - 不同泡沫檢定法（如本益比法、實際事件法）
 - 不同韌性指標（如 DUVOL、NCSKEW、Resilience、Vulnerability）
-- 動態策略 vs. 0050 的報酬路徑與差異
+- 動態策略 vs. 加權指數的報酬路徑與差異
 
-This folder contains cumulative return comparison tables between the 0050 ETF (Yuanta Taiwan Top 50) and dynamic investment strategies built on:
+This folder provides cumulative return comparison tables between the Taiwan Weighted Index (TWII) and multiple dynamic strategies constructed using:
 
-- Various bubble detection methods (e.g., P/E ratio, real-world events)
+- Various bubble detection methods (e.g., P/E ratio, historical crisis events)
 - Four resilience indicators (DUVOL, NCSKEW, Resilience, Vulnerability)
-- Each Excel file presents the cumulative performance differences between the 0050 ETF and the corresponding dynamic strategy.
+- Each Excel file shows cumulative performance comparison between the TWII and the dynamic strategy.
 
-📂 資料夾名稱 | Folder: `動態投資與0050累積報酬比較表 / dynamic_vs_0050_returns_tables`
-
+📂 資料夾名稱 | Folder: `動態投資與加權指數累積報酬比較表 (Dynamic_vs_twii_returns_tables)`
 
 ---
 ## 📁 動態投資與加權指數績效比較圖 (Performance Chart: TWII  vs. Dynamic Strategy)
@@ -98,26 +100,43 @@ The figures display switching points and cumulative returns under both strategie
 
 📂 資料夾名稱 | Folder: `動態投資與加權指數績效比較圖 (Dynamic_vs_twii_performance_charts)`
 
+---
+
+## 📁 泡沫狀態資料表（Bubble Status Tables）
+
+本資料表整理四種泡沫辨識方法下的市場泡沫狀態（以 0/1 記錄）：
+
+This folder contains bubble status (0/1) across four detection methods:
+
+1. **GSADF（95% 臨界值）** GSADF test using 95% Monte Carlo critical value  
+2. **GSADF（90% 臨界值）** GSADF test using 90% Monte Carlo critical value  
+3. **本益比法**        Price-to-Earnings ratio exceeding historical mean + 2 std dev  
+4. **實際事件法**       Manually defined based on historical financial crises
+
+📂 資料夾名稱 | Folder: `泡沫狀態資料表 (bubble_detection_tables)`
 
 ---
 
-## 📁 動態投資與加權指數累積報酬比較表  (Performance Tables: TWII vs. Dynamic Strategies)
+## 📁 韌性指標分組報酬差異圖（Group Return Spreads by Resilience Indicators）
 
-本資料夾收錄以「加權指數（TWII）」為基準，與各種泡沫辨識法與韌性指標所構成之「動態策略」間的累積報酬比較資料。每份 Excel 表格皆呈現：
+本資料夾收錄四種韌性指標（DUVOL、NCSKEW、Vulnerability、Resilience）在不同分組門檻下（前後10%、20%、25%）的高低韌性組別報酬差異趨勢圖，用以評估各指標區分韌性的效果。
 
-- 不同泡沫檢定法（如本益比法、實際事件法）
-- 不同韌性指標（如 DUVOL、NCSKEW、Resilience、Vulnerability）
-- 動態策略 vs. 加權指數的報酬路徑與差異
+This folder contains return spread charts between top and bottom ranked groups (Top/Bottom 10%, 20%, 25%) based on four resilience indicators: DUVOL, NCSKEW, Vulnerability, and Resilience. These visuals illustrate how well each indicator distinguishes resilient stocks across time.
 
-This folder provides cumulative return comparison tables between the Taiwan Weighted Index (TWII) and multiple dynamic strategies constructed using:
+- **x 軸**：時間（月）       x-axis: time (monthly)  
+- **y 軸**：高低組報酬差（%）   y-axis: return difference between high and low groups
 
-- Various bubble detection methods (e.g., P/E ratio, historical crisis events)
-- Four resilience indicators (DUVOL, NCSKEW, Resilience, Vulnerability)
-- Each Excel file shows cumulative performance comparison between the TWII and the dynamic strategy.
+### 各指標觀察摘要：
 
-📂 資料夾名稱 | Folder: `動態投資與加權指數累積報酬比較表 (Dynamic_vs_twii_returns_tables)`
+- **DUVOL**：報酬差異顯著且穩定，高韌性組在泡沫前後明顯優於低韌性組。
+- **NCSKEW**：整體趨勢變化不穩，分組間報酬差異缺乏一致性。
+- **Vulnerability**：在市場動盪期展現明顯報酬優勢，可有效辨識下行風險中的穩健標的。
+- **Resilience**：在泡沫爆發後期展現強勢反彈特性，高韌性組報酬明顯優於低韌性組，具穩定辨識反彈潛力的能力。
+
+📂 資料夾名稱 | Folder: `韌性指標分組報酬差異圖（Group Return Spreads by Resilience Indicators）`
 
 ---
+
 
 ## 📌 引用方式 | Citation
 
